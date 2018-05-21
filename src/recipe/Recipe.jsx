@@ -23,6 +23,7 @@ componentDidMount(){
             )
         })
         this.setState({recipes});
+        console.log(recipes);
     })
 }
 render(){
